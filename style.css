@@ -4,3 +4,23 @@ body{
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+header{
+    background-color: deeppink;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    height: 100px;
+    padding: 10px;
+}
+header nav{
+    color: pink;
+    display: flex;
+    align-items: center;
+    background-color: violet;
+    padding: 20px;
+}
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+}
